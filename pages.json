@@ -1,10 +1,53 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/function/function",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
 		}
-	}],
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#ff0000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/img/svg/home.svg",
+			"selectedIconPath": "static/img/svg/home_active.svg",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/function/function",
+			"iconPath": "static/img/svg/function.svg",
+			"selectedIconPath": "static/img/svg/function_active.svg",
+			"text": "功能"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/img/svg/mine.svg",
+			"selectedIconPath": "static/img/svg/mine_active.svg",
+			"text": "个人中心"
+		}]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

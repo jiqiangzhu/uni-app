@@ -18,6 +18,7 @@
 	@import '@/uni_modules/uni-scss/index.scss';
 	/* #ifndef APP-NVUE */
 	@import '@/static/customicons.css';
+
 	// 设置整个项目的背景色
 	page {
 		background-color: #f5f5f5;
@@ -28,5 +29,13 @@
 		font-size: 14px;
 		color: #333;
 		padding: 10px;
+	}
+
+	.icon {
+		width: 1em;
+		height: 1em;
+		vertical-align: -0.15em;
+		fill: currentColor;
+		overflow: hidden;
 	}
 </style>
