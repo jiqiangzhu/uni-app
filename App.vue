@@ -31,9 +31,10 @@
 		padding: 10px;
 	}
 
-	.icon {
-		width: 1em;
-		height: 1em;
+	.iconfont {
+		width: 12rpx;
+		height: 12rpx;
+		color: #ff0000;
 		vertical-align: -0.15em;
 		fill: currentColor;
 		overflow: hidden;

@@ -33,18 +33,18 @@
 		"backgroundColor": "#ffffff",
 		"list": [{
 			"pagePath": "pages/home/home",
-			"iconPath": "static/img/svg/home.svg",
-			"selectedIconPath": "static/img/svg/home_active.svg",
+			"iconPath": "static/img/images/home.png",
+			"selectedIconPath": "static/img/images/home_active.png",
 			"text": "首页"
 		}, {
 			"pagePath": "pages/function/function",
-			"iconPath": "static/img/svg/function.svg",
-			"selectedIconPath": "static/img/svg/function_active.svg",
+			"iconPath": "static/img/images/function.png",
+			"selectedIconPath": "static/img/images/function_active.png",
 			"text": "功能"
 		}, {
 			"pagePath": "pages/mine/mine",
-			"iconPath": "static/img/svg/mine.svg",
-			"selectedIconPath": "static/img/svg/mine_active.svg",
+			"iconPath": "static/img/images/mine.png",
+			"selectedIconPath": "static/img/images/mine_active.png",
 			"text": "个人中心"
 		}]
 	},
